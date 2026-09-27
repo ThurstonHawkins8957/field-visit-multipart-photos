@@ -1,0 +1,23 @@
+{
+  "name": "field-visit-multipart-photos",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/work_order_media.ts",
+    "start": "tsx src/work_order_media.ts",
+    "demo": "tsx src/upload_visit_photo.ts",
+    "test": "tsx --test test/media_decision.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}
